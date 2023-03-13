@@ -16,6 +16,41 @@ package org.example.datastruct;
  */
 public class DoubleLinkedList {
 
+    Node head;
+
+    public Node structNode(int data) {
+        Node newNode = new Node();
+        newNode.data = data;
+        newNode.pre = null;
+        newNode.next = null;
+        return newNode;
+    }
+
+    public void insertAtHead(int data) {
+        Node newNode = structNode(data);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        // 置换， 当前头部节点的 前置节点指向 创建的节点
+        head.pre = newNode;
+        //新节点的后置节点指向 当前的头部节点
+        newNode.next = head;
+        // 全局变量 head 指向新的节点
+        head = newNode;
+        return;
+    }
+
+    public void print() {
+        Node tempNode = head;
+        while (tempNode != null) {
+            System.out.println(tempNode.data);
+            tempNode = tempNode.next;
+        }
+        System.out.println();
+    }
+
+
     class Node {
         private int data;
         private Node pre;
