@@ -147,7 +147,7 @@ public class LinkList {
     /**
      * 链表节点
      */
-    class Node {
+    static class Node {
         int data;
         Node next;
     }

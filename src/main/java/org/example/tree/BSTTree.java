@@ -395,8 +395,7 @@ public class BSTTree {
         //2.如果有右子树，那么中序后继将会是它的右子树最左边的节点，在一颗BST中，将会是右子树的最小值，
         //这种场景下，我们需要做的就是，我们需要在左右树上尽量往左。
         if (current.right != null) {
-            Node rightSubTreeMinNode = findMin(root.right);
-            return rightSubTreeMinNode;
+            return findMin(root.right);
         } else {
             Node successor = null;
 

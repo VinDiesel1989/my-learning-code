@@ -52,8 +52,8 @@ public class DoubleLinkedList {
 
 
     class Node {
-        private int data;
-        private Node pre;
-        private Node next;
+        private int     data;
+        private Node    pre;
+        private Node    next;
     }
 }
