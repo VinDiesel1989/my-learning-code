@@ -2,6 +2,8 @@ package org.example;
 
 import java.io.*;
 import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -13,7 +15,7 @@ public class ZipTest {
     }
 
     public static String readZip(String file) throws IOException {
-        ZipInputStream zis = new ZipInputStream(new FileInputStream(file));
+        ZipInputStream zis = new ZipInputStream(Files.newInputStream(Paths.get(file)));
         ZipEntry zipEntry = null;
         StringBuffer sb = new StringBuffer();
         while ((zipEntry = zis.getNextEntry()) != null) {

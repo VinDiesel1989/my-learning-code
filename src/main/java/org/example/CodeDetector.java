@@ -8,10 +8,12 @@ import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.BitSet;
 
 public class CodeDetector {
-    private static int BYTE_SIZE = 8;
+    private static final int BYTE_SIZE = 8;
     public static String CODE_UTF8 = "UTF-8";
     public static String CODE_UTF8_BOM = "UTF-8_BOM";
     public static String CODE_GBK = "GBK";
@@ -25,7 +27,7 @@ public class CodeDetector {
      * @throws Exception
      */
     public static String getEncode(String fullFileName, boolean ignoreBom) throws Exception {
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream(fullFileName));
+        BufferedInputStream bis = new BufferedInputStream(Files.newInputStream(Paths.get(fullFileName)));
         return getEncode(bis, ignoreBom);
     }
 
@@ -53,8 +55,6 @@ public class CodeDetector {
                 } else {
                     encodeType = CODE_UTF8_BOM;
                 }
-            } else if ("Unicode".equals(encodeType)) {
-                encodeType = "UTF-16";
             } else if (isUTF8(bis)) {
                 encodeType = CODE_UTF8;
             } else {
@@ -85,8 +85,6 @@ public class CodeDetector {
                 if (!checkMultiByte(bis, bitSet)) {//未检测通过,直接返回
                     return false;
                 }
-            } else {
-                //单字节时什么都不用做，再次读取字节
             }
             code = bis.read();
         } while (code != -1);
@@ -183,7 +181,7 @@ public class CodeDetector {
         if (!dir.exists()) {
             dir.mkdirs();
         }
-        Writer out = new OutputStreamWriter(new FileOutputStream(newFullFileName), newCharsetName);
+        Writer out = new OutputStreamWriter(Files.newOutputStream(Paths.get(newFullFileName)), newCharsetName);
         out.write(content.toString());
     }
 }
