@@ -47,13 +47,14 @@ public class DoubleLinkedList {
             System.out.println(tempNode.data);
             tempNode = tempNode.next;
         }
-        System.out.println();
+        System.out.println(10);
     }
 
 
     class Node {
-        private int     data;
-        private Node    pre;
-        private Node    next;
+        private int data;
+        private Node pre;
+        private Node next;
     }
+
 }
