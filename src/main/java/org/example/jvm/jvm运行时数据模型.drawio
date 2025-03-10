@@ -1,101 +1,311 @@
-<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" modified="2025-03-10T05:01:51.085Z" version="22.1.22" etag="X5suZObmoEYNqsEt3AVN" type="embed">
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" modified="2025-03-10T13:14:59.113Z" etag="1WKOCAtTqJjkIgOrttLn" version="22.1.22" type="embed">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1356" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2212" dy="1075" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="编译" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="2" value="编译" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="80" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="5" target="33">
+        <mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="5" target="33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="执行" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="5" value="执行" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="93" y="468" width="102" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="4" target="5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="530" as="sourcePoint" />
             <mxPoint x="250" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="2" target="4">
+        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="2" target="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="300" as="sourcePoint" />
             <mxPoint x="160" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4" value="加载" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="4" value="加载" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="279" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="13" target="15">
+        <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="13" target="15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="源码（.java）" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="13" value="源码（.java）" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="110" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="15" target="16">
+        <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="15" target="16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="javac编译" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="15" value="javac编译" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="110" width="160" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="字节码文件 (.class)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="16" value="字节码文件 (.class)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="608" y="110" width="160" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="19" target="20">
+        <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="19" target="20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="加载：&lt;br&gt;Classloader加载字节码到内存" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="19" value="加载：&lt;br&gt;Classloader加载字节码到内存" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="299" width="180" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="20" target="21">
+        <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="20" target="21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="验证：&lt;br&gt;检查字节码文件的格式和&lt;br&gt;安全性" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="20" value="验证：&lt;br&gt;检查字节码文件的格式和&lt;br&gt;安全性" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="407" y="299.62" width="190" height="54.25" as="geometry" />
         </mxCell>
-        <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="21" target="22">
+        <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="21" target="22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="准备：&lt;br&gt;为类的静态变量分配内存并初始化默认值" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="21" value="准备：&lt;br&gt;为类的静态变量分配内存并初始化默认值" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="613" y="300.25" width="249" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="22" target="23">
+        <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="22" target="23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="解析：&lt;br&gt;将符号引用替换为直接引用" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="22" value="解析：&lt;br&gt;将符号引用替换为直接引用" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="898" y="298" width="190" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="初始化：&lt;br&gt;执行类的静态初始化块和静态变量的赋值操作" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="23" value="初始化：&lt;br&gt;执行类的静态初始化块和静态变量的赋值操作" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="1119" y="297" width="293" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="30" value="解释器：&lt;br&gt;将字节码逐条解释为机器码并执行" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="30" value="解释器：&lt;br&gt;将字节码逐条解释为机器码并执行" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="474" width="510" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="JIT编译器：&lt;br&gt;Just-In-Time Compiler 将热点代码编译为本地机器代码，提高执行效率。" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="31" value="JIT编译器：&lt;br&gt;Just-In-Time Compiler 将热点代码编译为本地机器代码，提高执行效率。" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="517" width="509" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="33" value="GC" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="33" value="GC" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="657" width="98" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="35" value="分代垃圾回收" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="35" value="分代垃圾回收" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="246" y="612" width="168" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="36" value="G1&lt;br&gt;垃圾回收" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="36" value="G1&lt;br&gt;垃圾回收" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="232" y="752" width="168" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="37" value="新生代：采用 复制算法（将存活对象复制到Survivor区）&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="37" value="新生代：采用 复制算法（将存活对象复制到Survivor区）&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="635" width="134" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="38" value="老年代：采用 标记-清楚算法和标记整理算法" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="38" value="老年代：采用 标记-清楚算法和标记整理算法" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="534" y="635" width="134" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="45" value="1.分区式堆管理：将堆划分为多个区域（Region）&lt;br&gt;2.优先回收垃圾最多的区域&lt;br&gt;3.提供更低的垃圾回收停顿时间。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="45" value="1.分区式堆管理：将堆划分为多个区域（Region）&lt;br&gt;2.优先回收垃圾最多的区域&lt;br&gt;3.提供更低的垃圾回收停顿时间。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="392" y="772" width="246" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="46" value="调优参数&lt;br&gt;1.-XX：+UseG1GC：启用G1GC&lt;br&gt;2.-XX：MaxGCPauseMillis：设置最大暂停时间。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="46" value="调优参数&lt;br&gt;1.-XX：+UseG1GC：启用G1GC&lt;br&gt;2.-XX：MaxGCPauseMillis：设置最大暂停时间。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="652" y="772" width="246" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="运行时数据区" style="swimlane;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1009" width="982" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="虚拟机栈&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VM Stack" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="54">
+          <mxGeometry x="324" y="78" width="296" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="本地方法栈&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Native Method Stack" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="54">
+          <mxGeometry x="653" y="81" width="296" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="54">
+          <mxGeometry x="324" y="163" width="627" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="102" value="堆&lt;br&gt;Heap" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="54">
+          <mxGeometry x="22" y="78" width="203" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="101" value="字符串常量池" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="73" y="174.5" width="118" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="本地内存" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="32" y="280" width="71" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="135" y="280" width="822" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="直接内存" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="147" y="292" width="120" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="109" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="54">
+          <mxGeometry x="324" y="291" width="620" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="110" value="元数据空间&lt;br&gt;Metadata Memory" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="353" y="322" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="运行时常量池 Runtime Constant Pool" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="558" y="295" width="357" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="112" value="类常量池 Class Constant Pool&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="54">
+          <mxGeometry x="558" y="345" width="357" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="线程私有" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="1078" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="114" value="线程共享" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="1152" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="115" value="&lt;font face=&quot;Tahoma&quot;&gt;每个Java线程都会对应一个虚拟机栈，换句话说多个线程就对应多个虚拟机栈。上面讲过了虚拟机栈是线程私有，虚拟机栈中包含多个栈帧(Stack Frame)，每一个栈帧是为方法执行而创建的，栈帧中描述的是Java方法执行的内存模型。每个方法从调用开始直到完成的全过程都对应着一个栈帧。栈帧是用来管理Java程序的运行，并保存方法的局部变量、部分结果、并参与方法的调用与返回。&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="96" y="1496" width="294" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="127" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1865" width="347" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="129" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1885" width="347" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="130" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="1903" width="347" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="131" value="线程 Thread" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="1891" width="156.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="132" value="PC&amp;nbsp; Register" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="198" y="1939" width="253" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="133" value="Native Stack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="214" y="2039" width="79" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="134" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="133">
+          <mxGeometry y="26" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="135" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="133">
+          <mxGeometry y="52" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="136" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="133">
+          <mxGeometry y="78" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="137" value="&amp;nbsp;Stack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="322" y="2039" width="112" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="138" value="Stack Frame1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="137">
+          <mxGeometry y="26" width="112" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="139" value="Stack Frame2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="137">
+          <mxGeometry y="52" width="112" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="140" value="Stack Frame3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="137">
+          <mxGeometry y="78" width="112" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="141" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="2321" width="787" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="142" value="返回地址" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="2397" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="143" value="Stack Frame" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="2323" width="123" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="149" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2355" width="108" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="150" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2377" width="108" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="151" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2400" width="109" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="152" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2423" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="153" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2446" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="154" value="操作数栈" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="597" y="2355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="155" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="280.5" y="2397" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="156" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="326" y="2397" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="157" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="372" y="2397" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="158" value="局部变量表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="297" y="2363" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="159" value="类常量池引用(Current Class Constant Pool Reference)" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="704" y="2376" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="161" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="983" y="1834" width="244" height="541" as="geometry" />
+        </mxCell>
+        <mxCell id="162" value="Method Area" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="982" y="1809" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="164" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="1830" width="244" height="541" as="geometry" />
+        </mxCell>
+        <mxCell id="165" value="Heap" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="1805" width="106" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="166" value="类型信息" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="1863" width="148" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="167" value="域信息" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="1903" width="146" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="168" value="方法信息" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="1940" width="148" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="170" value="运行时常量池" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="2031" width="141" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="171" value="String constant&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="170">
+          <mxGeometry y="30" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="172" value="numberic constant&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="170">
+          <mxGeometry y="60" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="173" value="class&amp;nbsp; &amp;nbsp;references" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="170">
+          <mxGeometry y="90" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="174" value="field&amp;nbsp; &amp;nbsp; &amp;nbsp;references" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="170">
+          <mxGeometry y="120" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="175" value="method references" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="170">
+          <mxGeometry y="150" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="176" value="name and&amp;nbsp; type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;movable=0;resizable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="170">
+          <mxGeometry y="180" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="177" value="伊甸区" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1274" y="1837" width="231" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="178" value="幸存者0区" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1274" y="1903" width="107" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="179" value="幸存者1区" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="1903" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="180" value="老年代" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1346" y="2103" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="182" value="" style="endArrow=classic;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357" y="2134" as="sourcePoint" />
+            <mxPoint x="134" y="2318" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="2253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="183" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" target="175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793" y="2371" as="sourcePoint" />
+            <mxPoint x="958" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="185" value="&lt;h4 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 20px !important;&quot; id=&quot;hdf2c2dd-GY22gMCQ&quot; data-id=&quot;hdf2c2dd-GY22gMCQ&quot;&gt;局部变量表&lt;/h4&gt;&lt;p style=&quot;margin: 0.6em 0px; padding: 0px; font-size: 16px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.75 !important;&quot; data-id=&quot;pd157317-ImOWwAZN&quot;&gt;它定义为数字数组，主要用于存储方法参数和定义在方体内的局部变量，包含基本数据类型，对象引用，以及returnAddress类型。它建立在线程的栈上，是线程的私有数据，因此不存在数据的安全问题。&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2558" width="862" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="186" value="&lt;h4 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 20px !important;&quot; id=&quot;hdf2c2dd-794Rm9o8&quot; data-id=&quot;hdf2c2dd-794Rm9o8&quot;&gt;操作数栈&lt;/h4&gt;&lt;h4 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 20px !important;&quot; id=&quot;hdf2c2dd-GY22gMCQ&quot; data-id=&quot;hdf2c2dd-GY22gMCQ&quot;&gt;&lt;p style=&quot;margin: 0.6em 0px; padding: 0px; font-size: 16px; font-weight: 400; line-height: 1.75 !important;&quot; data-id=&quot;pd157317-eVa0Rrqp&quot;&gt;它是一个后进先出的栈，在方法执行的过程中，根据字节码指令、往栈中写入或取出数据，即入栈/出栈。字节码指令将值压入操作栈，其余的字节码指令将操作数取出栈，进行操作之后再将结果压入栈。操作包括：复制、交换、求和等&lt;/p&gt;&lt;/h4&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2754" width="862" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="187" value="&lt;h3 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 24px !important;&quot; id=&quot;h26976cb-EngnQTeS&quot; data-id=&quot;h26976cb-EngnQTeS&quot;&gt;程序计数器&lt;/h3&gt;&lt;h4 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 20px !important;&quot; id=&quot;hdf2c2dd-794Rm9o8&quot; data-id=&quot;hdf2c2dd-794Rm9o8&quot;&gt;&lt;p style=&quot;margin: 0.6em 0px; padding: 0px; font-size: 16px; font-weight: 400; line-height: 1.75 !important;&quot; data-id=&quot;pd157317-vZNs92jI&quot;&gt;有了上面虚拟机栈的讲解，对于程序计数器的理解会相对简单点。记得在虚拟机栈中的操作数栈的例子中，提到了使用程序计数器记录操作指令的地址。程序计数器就是一块较小的内存空间，它是当前线程执行的字节码的行号(操作指令的地址)指示器。在栈帧中字节码解释器就是通过改变计数器的值来选去下一条要执行的字节码指令的，例如：分支、循环、跳转、异常处理、线程恢复等。&lt;/p&gt;&lt;/h4&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="546" y="1496" width="862" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="188" value="&lt;h3 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 24px !important;&quot; id=&quot;h26976cb-UPgeBRpL&quot; data-id=&quot;h26976cb-UPgeBRpL&quot;&gt;总结&lt;/h3&gt;&lt;h4 style=&quot;margin: 1em 0px 0.4em; padding: 0px; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, sans-serif; text-align: start; line-height: 1.5 !important; font-size: 20px !important;&quot; id=&quot;hdf2c2dd-794Rm9o8&quot; data-id=&quot;hdf2c2dd-794Rm9o8&quot;&gt;&lt;p style=&quot;margin: 0.6em 0px; padding: 0px; font-size: 16px; font-weight: 400; line-height: 1.75 !important;&quot; data-id=&quot;pd157317-nXZpOfQL&quot;&gt;JVM 会把Java的字节码加载到运行时数据区内，这个内存区域分为：方法区、堆、虚拟机栈、本地方法栈以及程序计数器。堆里面放对象，也是垃圾回收器要处理的对象;方法区放类型、方法描述、方法本体;程序计数器负责记录虚拟机栈中指令执行的地址;虚拟机栈对应Java执行的线程，对象的引用都保存在栈帧中，通过指令地址和指令执行方法中的内容;本地方法栈用来调用Java 之外的系统级别的接口。&lt;/p&gt;&lt;/h4&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="2956" width="862" height="249" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
